@@ -1,0 +1,286 @@
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+
+	font-size: 15px;
+	line-height: 0.6;
+	color: #778899;
+}
+
+ *,
+ *:before,
+ *:after {
+ 	box-sizing: border-box;
+ }
+
+ h2, h3, h4, h5, h6 {
+ 	margin: 0;
+ }
+
+ 
+ 	/* Container */
+ .container {
+  	width: 100%;
+  	max-width: 1500px;
+  	margin: 0 auto;
+  }
+
+  /* intro */
+
+  .intro {
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	width: 100%;
+  	height: 100vh;
+
+  	background:
+  	url("C:/Users/АЛЕКСЕЙ ОЛЕГОВИЧ/Desktop/psycho2/assets/1605999250_22.jpg") center center
+  	no-repeat;
+ 	background-size: 100% 100%;
+ 	background-repeat: no-repeat;
+ 	line-height: 1.3; 
+ }
+
+ 	.intro__inner {
+ 		width: 	100%;
+ 		max-width: 	880px;
+ 		margin: 0 auto;
+ 	}
+
+  .intro__title {
+  	color: 	#000000;
+  	font-size: 150px;
+  	font-weight: 630;
+  	text-transform: uppercase;
+  	text-align: center;
+  	line-height: 1;
+  }
+
+  .intro__suptitle {
+  		font-size: 	21px;
+  		font-family: 'Caveat', cursive;
+  		text-align: center;
+  }
+
+
+  /* Header */
+  .header {
+  	width: 	100%;
+  	padding-top: 15px;
+
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	z-index: 1000;
+  }
+
+  .header__logo {
+  	font-size: 25px;
+  	font-weight: 700;
+  	color: #778899;
+  }
+
+  	.header__inner {
+  		display: flex;
+  		justify-content: space-between;
+  	}
+
+
+  /* nav */
+  .nav {
+  	font-size: 25;
+  	text-transform: uppercase;
+  }
+
+  .nav__link {
+  	display: inline-block;
+  	vertical-align: top;
+  	margin: 0 180px;
+  	 color: #fff;
+  	 width: 100%;
+
+
+  	 transition: color .2 linear;
+  }
+
+  .nav__link:hover {
+  	color: #CD5C5C;
+  }
+
+
+ 	/* section */
+  .section {
+  	padding: 80px 0;
+  }
+
+  .section__header {
+  	width: 150%;
+  	max-width: 950px;
+  	margin: 0 auto 40px;
+
+  	text-align: center;
+  }
+
+  .section__suptitle {
+  	margin: 11px;
+  	font-size: 24px;
+  	color: #333;
+  }
+
+ .section__title {
+ 	font-size: 30px;
+ 	font-weight: 700;
+ 	color: #000;
+ 	text-transform: uppercase;
+ }
+
+ .section__title:after {
+ 	content: "";
+ 	display: block;
+ 	width: 46px;
+ 	height: 2px;
+ 	margin: 20px auto ;
+
+ 	background-color: #000;
+ }
+
+
+  .section__text {
+  	font-size: 15px;
+  	color: #F08080;
+  }
+
+
+   /* About */
+   .about {
+   	color: #000;
+   	font-family: 'Pangolin', cursive;
+   	margin-left: 25px;
+   	font-size: 30px;
+   	 display: flex;
+   	 font-weight: 450px;
+
+   }
+
+
+ .about__item {
+ 	width: 150%;
+
+ }
+
+  .about__img {
+  	display: flex;
+  	margin-left: 500px;
+  }
+
+  /* Statistics */
+  .statistics {
+  	background-color: #000;
+  }
+
+
+  .stat {
+  	display: flex;
+  }
+
+
+  .stat__item {
+  	flex: 3 3 0;
+  	padding: 30px 25px;
+
+  	text-align: center;
+  	color: #fff;
+  	font-family: 'Pangolin', cursive;
+  	font-size: 25px;
+  }
+
+  .text {
+  	font-family: font-family: 'Montserrat', sans-serif;;
+  	font-size: 30px;
+ 	font-weight: 700;
+ 	color: #000;
+ 	text-transform: uppercase;
+  }
+
+
+   /* Player music */
+  .wrapper	{
+  	height: 100vh;
+  	width: 100%;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  }
+
+ .player {
+ 	background: #EFF3F5;
+ 	border-radius: 30px;
+ 	max-width: 380px;
+ 	width: 100%;
+ 	padding: 25px;
+ }
+
+  .title {
+  	font-weight: 500;
+  	font-size: 14px;
+  	line-height: 16px;
+  	text-align: center;
+  }
+
+  .cover {
+  	display: flex;
+  	justify-content: center;
+  	margin: 25px 0;
+  }
+
+  .song {
+  	font-weight: bold;
+  	font-size: 24px;
+  	line-height: 28px;
+  	color: #000;
+  	text-align: center;
+  }
+
+  .progress__container {
+  	border-radius: 5px;
+  	width: 100%;
+  	height: 10px;
+  	margin-top: 63px;
+  	display: flex;
+  	align-items: center;
+  	cursor: pointer;
+  }
+
+  .progress {
+  	background: #000;
+  	border-radius: 5px;
+  	height: 6px;
+  	width: 500px;
+  }
+
+ .buttons {
+ 	padding: 10px;
+ 	display: flex;
+ 	align-items: center;
+  	justify-content: center;
+  	margin: 25px 0;
+ }
+
+ .btn {
+ 	cursor: pointer;
+ }
+
+  /* Audio */
+  .center{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 	100%;
+  }
+
+  /* TREK */
+  .ivanzolo2004 {
+  	padding-bottom: 200px;
+  }
